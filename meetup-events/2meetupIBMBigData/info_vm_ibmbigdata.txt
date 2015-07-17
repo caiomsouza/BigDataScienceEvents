@@ -1,0 +1,19 @@
+In the event they gave us a VM with the IBM Big Data Software.
+
+IBM Open Platform with Apache Hadoop
+http://www.meetup.com/pt/Big-Data-Developers-in-Madrid/events/223125453/
+
+user: biadmin
+password: biadmin
+
+Script to start the IBM Big Data
+/home/biadmin/adm/start.sh
+
+
+Services 
+
+Stop
+stop-all.sh
+
+Start
+start-all.sh
