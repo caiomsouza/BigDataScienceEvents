@@ -1,8 +1,8 @@
 #II Meetup - IBM Open Platform with Apache Hadoop - July, 17, 2015 - Madrid, Spain
 
 Location of the event: IBM Client Center Madrid - Calle Corazón de María, 44, Madrid.
-Time: 9:00 to 13:30
-Hashtag: #IBMHadoop
+Time: 9:00 to 13:30<BR>
+Hashtag: #IBMHadoop<BR>
 
 Slides:
 All the slides will be in the Meetup website.
@@ -21,7 +21,6 @@ password: biadmin
 
 Script to start the IBM Big Data
 /home/biadmin/adm/start.sh
-
 
 Services 
 
@@ -93,6 +92,7 @@ RDD = Resilient Distributed Dataset
 - Actions
 
 Code example:
+```
 ------------------------------------------------------------------
 // Creating the RDD
 val logFile = sc.textFile(“hdfs://…”)
@@ -107,6 +107,7 @@ messages.cache()
 //Actions
 messages.filter(_.contains(“mysql”)).count()
 messages.filter(_.contains(“php”)).count()
+```
 
 ------------------------------------------------------------------
 
@@ -195,7 +196,7 @@ Big SQL
 Text Analytics / Text analytics Tooling
 
 Comments:
-In my opinion using Amazon S3 will be a option to HDFS or GPFS-FPO.
+In my opinion using Amazon S3 will be a option for HDFS or GPFS-FPO.
 
 Text Analytics
 AQL (Annotator Query Language)
